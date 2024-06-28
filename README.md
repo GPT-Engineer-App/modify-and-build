@@ -1,38 +1,34 @@
-# modify-and-build
+# Bare-Bones Web Application
 
-Create a bare-bones application that I can modify and build on.
+This is a minimal web application setup with basic HTML structure, simple CSS for styling, and a basic JavaScript setup. 
 
-## Collaborate with GPT Engineer
+## How to Run
 
-This is a [gptengineer.app](https://gptengineer.app)-synced repository 🌟🤖
+1. **Clone the repository:**
+   ```sh
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
 
-Changes made via gptengineer.app will be committed to this repo.
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-If you clone this repo and push changes, you will have them reflected in the GPT Engineer UI.
+3. **Run the application:**
+   ```sh
+   npm run dev
+   ```
 
-## Tech stack
+4. **Open your browser and navigate to:**
+   ```
+   http://localhost:3000
+   ```
 
-This project is built with React with shadcn-ui and Tailwind CSS.
+## How to Modify
 
-- Vite
-- React
-- shadcn/ui
-- Tailwind CSS
+- **HTML Structure:** Modify the `Index.jsx` file in the `src/pages` directory.
+- **CSS Styling:** Modify the `index.css` file in the `src` directory.
+- **JavaScript Setup:** Modify the `App.jsx` file in the `src` directory.
 
-## Setup
-
-```sh
-git clone https://github.com/GPT-Engineer-App/modify-and-build.git
-cd modify-and-build
-npm i
-```
-
-```sh
-npm run dev
-```
-
-This will run a dev server with auto reloading and an instant preview.
-
-## Requirements
-
-- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Feel free to add more components and features as needed.
